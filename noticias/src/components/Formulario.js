@@ -31,7 +31,9 @@ function Formulario({setSeleccion, seleccion}) {
             return
         } else {
             setError(false);
-            setSeleccion(state)        
+            setSeleccion(state);
+            
+
         }        
     }
 
